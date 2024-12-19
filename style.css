@@ -129,6 +129,7 @@ a:hover {
     0% {
         transform: translateY(600px);
     }
+
     100% {
         transform: translateY(0px);
     }
