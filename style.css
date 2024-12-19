@@ -111,7 +111,7 @@ a:hover {
     background-repeat: no-repeat;
     background-position: center;
     animation: slidein;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 .btndiv {
     display: flex;
