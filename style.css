@@ -10,6 +10,7 @@
 }
 body {
     margin: 0;
+    flex-wrap: wrap;
 }
 header {
     position: fixed;
@@ -33,6 +34,9 @@ a {
     font-family: var(--roboto);
     font-weight: 600;
     font-size: 16px;
+}
+a:hover {
+    color: var(--red);
 }
 .logo {
     background-color: var(--red);
@@ -106,6 +110,8 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    animation: slidein;
+    animation-duration: 4s;
 }
 .btndiv {
     display: flex;
@@ -118,4 +124,12 @@ a {
     color: black;
     box-shadow: 2px 2px var(--red);
     transition-duration: 0.3s;
+}
+@keyframes slidein {
+    0% {
+        transform: translateY(600px);
+    }
+    100& {
+        transform: translateY(0px);
+    }
 }
