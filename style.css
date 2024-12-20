@@ -134,3 +134,7 @@ a:hover {
         transform: translateY(0px);
     }
 }
+li {
+    border-width: 20px;
+    border-color: #A60303;
+}
